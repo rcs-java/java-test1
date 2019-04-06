@@ -9,7 +9,7 @@ int capacity = 100;
             int input1 = sc.nextInt();
         System.out.println("the amount of people still in the queue");
         int input2 = sc.nextInt();
-        if (100-input1-input2>0){
+        if (100-input1-input2>=0){
             System.out.println("can fit");
         } else {
             System.out.println("can't fit");
