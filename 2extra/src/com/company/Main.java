@@ -1,3 +1,5 @@
+package com.company;
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,15 +11,19 @@ public class Main {
         int input1 = sc.nextInt();
         System.out.println("the amount of people still in the queue");
         int input2 = sc.nextInt();
-        int now = 100-input1;
+        int now = 100 - input1;
 
-        for (int user = now ; user<=now-input2; user--){
-            if (user>0){
+
+        for (int user = 0; user <input2 ; user++) {
+            if (now > 0) {
                 System.out.println("fit");
-            } else{
+                now--;
+            } else {
                 System.out.println("can't fit");
+                now--;
             }
         }
 
     }
+
 }
