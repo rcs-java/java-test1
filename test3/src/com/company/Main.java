@@ -8,7 +8,7 @@ public class Main {
         int i =0;
         int c =a+b;
         System.out.println(c);
-while (i<40){
+while (i<39){
 
                 System.out.println(c);
     a=b;
